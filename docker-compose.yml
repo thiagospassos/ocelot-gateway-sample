@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  servicea:
+    image: servicea
+    build:
+      context: ./ServiceA
+      dockerfile: Dockerfile
